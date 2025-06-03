@@ -33,23 +33,28 @@ header.header {
 }
 
 /* NUEVO BANNER */
-.contenido-siman.banner {
-    background-image: url('../images/banner.jpg');
-    /* Asegúrate de tener esta imagen */
+.banner {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.8), 
+        rgba(255, 205, 208, 0.2)
+    ),url("https://res.cloudinary.com/dygbxcveq/image/upload/v1748916113/m3crkoRSQF5qf6KK76kGVOIqgTVDDh2lDn5TcJJd_bmjzqf.jpg");
     background-size: cover;
     background-position: center;
-    color: white;
-    padding: 80px 20px;
+    max-height: 1200px;
+    height: 300px;
     text-align: center;
+    border-radius: 24px;
 }
 
-.contenido-siman.banner h1 {
+.banner h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    color: rgb(168, 51, 56);
 }
 
-.contenido-siman.banner p {
+.banner p {
     font-size: 20px;
+    color: rgb(168, 51, 56);
 }
 
 /* CONTENEDORES */

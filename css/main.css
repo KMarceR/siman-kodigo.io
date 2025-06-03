@@ -212,6 +212,7 @@ header.header {
     font-size: 2rem;
     margin-bottom: 32px;
     font-weight: 700;
+    color: rgb(168, 51, 56);
 }
 
 .testimonios-contenedor {
@@ -269,20 +270,6 @@ header.header {
     align-items: center;
     gap: 4px;
 }
-
-.verificado {
-    width: 16px;
-    height: 16px;
-}
-
-.usuario-cargo,
-.usuario-empresa {
-    display: block;
-    font-size: 0.9rem;
-    color: #888;
-    margin-top: 2px;
-}
-
 
 footer {
     text-align: center;
